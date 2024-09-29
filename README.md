@@ -43,6 +43,7 @@ Data preprocessing was essential for preparing the images for model training. Th
 - The modified architecture improves upon the baseline model by adding more convolutional layers and convolutional transpose layers, enhancing the model's ability to capture spatial structures and intricate details in the images.
 
 **Encoder**:
+  - Input layer
   - Three Conv2D layers with 32, 64, and 128 filters
   - Flatten layer followed by a Dense layer to produce a latent representation of dimension 128
   
